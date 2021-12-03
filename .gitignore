@@ -106,3 +106,7 @@ dist
 # compile file
 artifacts/
 cache/
+
+# waffle temp file
+flatten/
+build/
