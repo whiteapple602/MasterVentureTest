@@ -4,7 +4,7 @@
   "description": "<p align=\"center\">\r   <h1 align=\"center\">\r   Master Ventures\r   </h1>\r </p>",
   "main": "index.js",
   "scripts": {
-    "test": "export NODE_ENV=test && mocha",
+    "test": "mocha 'test/**/*.ts'",
     "build": "waffle"
   },
   "repository": {
@@ -24,7 +24,9 @@
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@openzeppelin/contracts": "^4.4.0",
     "@openzeppelin/hardhat-upgrades": "^1.12.0",
+    "@types/chai": "^4.2.22",
     "@types/mocha": "^9.0.0",
+    "@types/node": "^16.11.11",
     "chai": "^4.3.4",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
@@ -37,6 +39,7 @@
     "ethers": "^5.5.2",
     "hardhat": "^2.7.0",
     "mocha": "^9.1.3",
-    "ts-node": "^10.4.0"
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
   }
 }
